@@ -1,4 +1,4 @@
-# Erase It - Jogo Interativo de Apagar Pixels 🎮✨
+# Erase It - Jogo Interativo de Apagar Pixels 🎮✨ [Vídeo de apresentação](https://youtu.be/5kQM_72uV8Y)
 
 ## Objetivo Geral 🎯
 
