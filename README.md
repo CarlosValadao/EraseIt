@@ -21,6 +21,8 @@ O jogo possui três estados principais:
 - **Contagem de Tempo**: O tempo restante é mostrado na matriz de LEDs WS2812b e é atualizado a cada segundo.
 - **Fim do Jogo**: Ao final do jogo, um beep de 3000 ms é emitido pelo buzzer, e o jogo retorna à tela inicial, exibindo a quantidade de pixels apagados.
 
+https://github.com/user-attachments/assets/bf6aabbe-994e-4bb2-8fdc-dbdef15ae9d9
+
 ### Funcionalidade da Comunicação 💬
 
 - **Início do Jogo**: O sistema envia uma mensagem via UART informando que o jogo começou.
