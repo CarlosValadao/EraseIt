@@ -275,18 +275,16 @@ void oledgfx_random_fill_display(ssd1306_t *ssd)
 }
 
 uint16_t oledgfx_count_lit_pixels(ssd1306_t *ssd) {
-    int count = 0;
+    uint16_t count = 0;
     
     // Percorrer o buffer de RAM (1024 bytes)
     for (int i = 0; i < ssd->bufsize; i++) {
         uint8_t byte = ssd->ram_buffer[i];
-        
         // Contar os bits "1" no byte
         while (byte) {
             count += byte & 1;  // Incrementa o contador se o bit mais baixo for 1
             byte >>= 1;         // Desloca os bits para a direita
         }
     }
-    
-    return (WIDTH * HEIGHT) - count;
+    return count;
 }
